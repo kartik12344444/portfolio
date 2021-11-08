@@ -1,0 +1,189 @@
+.resume{
+  height: 840px;
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 8px -8px 8px #888888 ;
+  background-color: whitesmoke;
+}
+.educate1{
+  background-color: whitesmoke;
+  margin-top: 40px;
+  line-height: 0.5;
+  margin-left: 3%;
+  border-radius: 20px;
+  width: 600px;
+  padding: 20px;
+  color: darkblue;
+  border: 2px solid black;
+  box-shadow: 8px -8px 8px rgb(218, 209, 158) ;
+}
+
+.educate1 span{
+  margin-left: 90px;
+}
+.educate2{
+  background-color: whitesmoke;
+  margin-top: 40px;
+  line-height: 0.5;
+  margin-left: 3%;
+  border-radius: 20px;
+  width: 600px;
+  padding: 20px;
+  color: darkblue;
+  border: 2px solid black;
+  box-shadow: 8px -8px 8px rgb(218, 209, 158) ;
+}
+.educate2 span{
+  margin-left: 275px;
+}
+.educate3{
+  background-color: whitesmoke;
+  margin-top: 40px;
+  line-height: 0.5;
+  margin-left: 3%;
+  border-radius: 20px;
+  width: 600px;
+  padding: 20px;
+  color: darkblue;
+  border: 2px solid black;
+  box-shadow: 8px -8px 8px rgb(218, 209, 158) ;
+}
+.educate3 span{
+  margin-left: 155px;
+}
+.headedu{
+  margin-left: 30px;
+}
+.headedu hr{
+  width: 50%;
+  margin-left: 0px;
+  height: 2px;
+  background-color: darkblue;
+}
+.btn{
+  border-radius: 20px;
+  border: 2px solid rgb(110, 92, 92);
+  background-color: rgb(240, 241, 153);
+  padding: 5px;
+  width: 110px;
+  font-weight: bold;
+}
+.btn1{
+  border-radius: 20px;
+  border: 2px solid rgb(110, 92, 92);
+  background-color: rgb(240, 241, 153);
+  padding: 5px;
+  width: 110px;
+  font-weight: bold;
+}
+.btn2{
+  border-radius: 20px;
+  border: 2px solid rgb(110, 92, 92);
+  background-color: rgb(240, 241, 153);
+  padding: 5px;
+  width: 110px;
+  font-weight: bold;
+}
+.resumelink{
+  margin-left: 35%;
+  margin-top: 3%;
+
+}
+.resumelink button{
+  height: 40px;
+  width: 400px;
+  font-weight: bold;
+  background-color: rgb(104, 90, 77);
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+
+
+.headport1{
+  margin-left: 45%;
+  margin-top: 4%;
+}
+.headport1 hr{
+  width: 160px;
+  margin-left: 0px;
+  height: 6px;
+  margin-top: 0px;
+  background-color: darkorange;
+}
+.main{
+   display: flex;
+ }
+
+.symbol img{
+  margin-left: 60px;
+  height: 460px;
+  width: 450px;
+  background-color: whitesmoke;
+}
+.symbolasset{
+  margin-left: 100px;
+  height: 50px;
+  display: flex;
+  border: 2px solid wheat;
+  justify-content: space-evenly;
+  font-size: 40px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  
+.resume{
+  width: 95vh;
+}
+
+.educate1{
+  width: 550px;
+  margin-left: 5px;
+}
+.educate2{
+  width: 550px;
+  margin-left: 5px;
+}
+.educate3{
+  width: 550px;
+  margin-left: 5px;
+}
+.btn{
+  margin-left: 340px;
+}
+.btn1{
+  margin-left: 150px;
+}
+.btn2{
+  margin-left: 270px;
+}
+.resumelink button{
+  margin-left: -100px;
+}
+.headport1{
+  margin-left: 70%;
+}
+  }

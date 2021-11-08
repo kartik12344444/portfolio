@@ -1,0 +1,125 @@
+:root{
+  margin-left: 0%;
+  height: 100%;
+  width: 100%;
+  background-color: #F5F5DC;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.navbar{
+  margin-right: 4%;
+  margin-left: 5%;
+  margin-top: 0%;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  width: 88%;
+  
+}
+.name{
+  float: left;
+  font-size: 30px;
+}
+.navnext{
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 500px;
+  margin-top: 0px;
+  margin-bottom: 2%;
+  background-color: #097969;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.namebox button{
+  display: inline;
+  width: 160px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 50px;
+  background-color: rgb(90, 57, 25);
+  margin-top: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+
+.namebox button{
+  text-decoration: none;
+}
+.namebox{
+  margin-top: 5%;
+  padding-top: 3%;
+  padding-left: 6%;
+  line-height: 1;
+}
+.kartik{
+  color: darksalmon;
+  font-size: 40px;
+}
+.developer{
+  color: white;
+  
+}
+.developer1{
+  font-size: 40px;
+  color: white;
+}
+.residid{
+  text-decoration: none;
+  color: black;
+}
+
+.webpic{
+  margin-top: -370px;
+  margin-right: 60px;
+  height: 500px;
+  width: 600px;
+  float: right;
+  
+}
+.hireme{
+  text-decoration: none;
+  color: white;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
+   
+.navbar{
+  margin-left: -15px;
+  width: 66%;
+}  
+.navnext{
+  width: 100vh;
+  height: 800px;
+}
+.webpic{
+  margin-top: 0px;
+}
+  }

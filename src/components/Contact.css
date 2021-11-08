@@ -1,0 +1,111 @@
+.contact{
+  height: 650px;
+  background-color: rgb(191, 199, 224);
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-right: 10% ;
+  box-shadow: 5px -5px 10px rgb(89, 90, 87);
+}
+.contact1{
+  float: left;
+  width: 47%;
+  height: 600px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  justify-content: center;
+  
+}
+.contact2{
+  display: inline;
+  width: 47%;
+  height: 600px;
+  background-color: rgb(243, 233, 212);
+  float: right;
+  border-radius: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+}
+.contact3{
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.connect{
+  color: green;
+}
+.contact3 p{
+  color: rgb(114, 99, 89);
+}
+
+.form{
+  margin-left: 80px;
+}
+
+.connect1{
+  color: green;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+.inputform{
+  width: 400px;
+  height: 25px;
+  border: 2px solid rgb(224, 208, 208);
+  border-radius: 5px;
+}
+.inputform1{
+  width: 400px;
+  height: 55px;
+  border: 2px solid rgb(224, 208, 208);
+  border-radius: 5px;
+}
+.btnform{
+  width: 200px;
+  height: 40px;
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border: 2px solid rgb(224, 208, 208) ;
+}
+.locate{
+  font-size: 22px;
+  line-height: 2;
+}
+.locate span{
+  margin-left: 10px;
+   font-size: 15px;
+   color: green;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 800px){
+.contact{
+  width: 95vh;
+}
+.connect{
+  margin-top: -50px;
+  margin-left: -40px;
+}
+.contact3 p{
+  margin-left: -60px;
+}
+.form{
+  margin-left: 20px;
+}
+.connect1{
+  margin-top: 33px;
+  margin-left: 20px;
+}
+.inputform{
+  width: 200px;
+}
+.inputform1{
+  width: 230px;
+}
+
+}
