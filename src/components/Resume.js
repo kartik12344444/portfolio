@@ -32,7 +32,7 @@ export class Resume extends Component {
            </div>
            
             <div className='symbol'>
-           <div><img src={edu}></img></div>
+           <div><img src={edu} alt="image"></img></div>
            <div className='symbolasset'>
              < BsLinkedin /> < BsInstagram/> <AiFillGithub/> <AiFillTwitterCircle/> </div>
            </div>

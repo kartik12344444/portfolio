@@ -28,7 +28,7 @@ export class About extends Component {
           <AiFillCodepenCircle/>
         </div>
           </div>
-          <div ><img className='aboutme' src={aboutme}></img></div>
+          <div ><img className='aboutme' src={aboutme} alt='image'></img></div>
         </div>
       </div>
     )

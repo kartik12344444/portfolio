@@ -14,12 +14,12 @@ export class Myport extends Component {
       <div>
         <h1  id='portid'className='headport'>My Portfolio <hr/></h1>
         <div className='portfolio'>
-           <a href='https://kartik12344444.github.io/DIGITAL-CLOCK/'><img className='portsec' src={clock1}></img></a>
-           <a href='https://kartik12344444.github.io/CSS-6/'><img className='portsec' src={sahara}></img></a>
-           <a href='https://kartik12344444.github.io/TO-DO-UI-MOBILE/'><img className='portsec' src={todo1}></img></a>
-           <a href='https://kartik12344444.github.io/CSS-2/'><img className='portsec' src={menu}></img></a>
-           <a href='https://kartik12344444.github.io/CSS-5/'><img className='portsec' src={playcss}></img></a>
-           <a href='https://kartik12344444.github.io/ASSIGN-2/'><img className='portsec' src={react1}></img></a>
+           <a href='https://kartik12344444.github.io/DIGITAL-CLOCK/'><img className='portsec' src={clock1} alt='projectimage'></img></a>
+           <a href='https://kartik12344444.github.io/CSS-6/'><img className='portsec' src={sahara} alt='projectimage'></img></a>
+           <a href='https://kartik12344444.github.io/TO-DO-UI-MOBILE/'><img className='portsec' src={todo1} alt='projectimage'></img></a>
+           <a href='https://kartik12344444.github.io/CSS-2/'><img className='portsec' src={menu} alt='projectimage'></img></a>
+           <a href='https://kartik12344444.github.io/CSS-5/'><img className='portsec' src={playcss} alt='projectimage'></img></a>
+           <a href='https://kartik12344444.github.io/ASSIGN-2/'><img className='portsec' src={react1} alt='projectimage'></img></a>
         </div>
       </div>
     )

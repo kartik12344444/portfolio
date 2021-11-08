@@ -14,7 +14,7 @@ export class navbar extends Component {
              <li><a href="#portid">Portfolio</a></li>
              <li><a href="#resumeid">Resume</a></li>
              <li><a href="#contactid">Contact</a></li>
-             <li className='name'><a>Kartik Pattar</a></li>
+             <li className='name'>Kartik Pattar</li>
          </ul>
          </div>
          <div className='navnext'>
@@ -26,7 +26,7 @@ export class navbar extends Component {
                <button ><a className='hireme' href='#resid'>Resume</a></button>
              </div>
              <div>
-               <img className='webpic' src={webpicasset}></img>
+               <img className='webpic' src={webpicasset} alt='image'></img>
                </div>
          </div>
       </div>
