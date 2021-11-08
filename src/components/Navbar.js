@@ -26,7 +26,7 @@ export class navbar extends Component {
                <button ><a className='hireme' href='#resid'>Resume</a></button>
              </div>
              <div>
-               <img className='webpic' src={webpicasset} alt='image'></img>
+               <img className='webpic' src={webpicasset} alt='sampleimage'></img>
                </div>
          </div>
       </div>
