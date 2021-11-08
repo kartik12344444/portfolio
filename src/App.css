@@ -43,12 +43,13 @@ li a:hover {
 .name{
   float: left;
   font-size: 30px;
+  color: white;
 }
 .navnext{
   margin-left: 5%;
   margin-right: 5%;
   height: 500px;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 2%;
   background-color: #097969;
   border-bottom-right-radius: 10px;
